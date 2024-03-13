@@ -82,10 +82,10 @@ const BannerPrincipal = () => {
           />
           <div className="pl-[63px] absolute z-10 top-[50%] lg:top-[151px] lg:left-[323px] translate-y-[-50%] lg:transform-none lg:p-0">
             <h1 className="max-w-[223px] text-[#fff] font-[700] text-[30px] mb-[24px] lg:max-w-[471px] lg:text-[40px] lg:mb-[40px]">
-            {banner.title}
+              {banner.title}
             </h1>
             <p className="max-w-[239px] text-[#fff] font-[400] text-[14px] mb-[16px] lg:max-w-[467px] lg:text-[20px] lg:mb-[32px]">
-            {banner.description}
+              {banner.description}
             </p>
             <a
               href="#"
@@ -102,13 +102,13 @@ const BannerPrincipal = () => {
           onClick={prevSlide}
           className="left-0 absolute ml-[28px] lg:ml-[161px]"
         >
-          <img src={isMobile ? Icons.arrowLeftMob : Icons.arrowLeft} />
+          <img src={isMobile ? Icons.arrowLeftMob : Icons.arrowLeft} alt="Previous" />
         </button>
         <button
           onClick={nextSlide}
           className="right-0 absolute mr-[28px] lg:mr-[161px]"
         >
-          <img src={isMobile ? Icons.arrowRightMob : Icons.arrowRight}/>
+          <img src={isMobile ? Icons.arrowRightMob : Icons.arrowRight} alt="Next"/>
         </button>
       </div>
 
