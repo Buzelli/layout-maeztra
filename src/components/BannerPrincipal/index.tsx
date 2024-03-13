@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Icons from "../Icons/icons";
 
 type Banner = {
@@ -9,7 +9,7 @@ type Banner = {
   description: string;
 };
 
-const BannerPrincipal: React.FC = () => {
+const BannerPrincipal = () => {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
   const [isMobile, setIsMobile] = useState<boolean>(false);
 
@@ -100,15 +100,15 @@ const BannerPrincipal: React.FC = () => {
       <div className="absolute top-1/2 transform -translate-y-1/2 w-full">
         <button
           onClick={prevSlide}
-          className="bg-black text-white p-2 rounded-full left-0 absolute ml-[28px] lg:ml-[161px]"
+          className="left-0 absolute ml-[28px] lg:ml-[161px]"
         >
-          &#10094;
+          <img src={Icons.arrowLeft} />
         </button>
         <button
           onClick={nextSlide}
-          className="bg-black text-white p-2 rounded-full right-0 absolute mr-[28px] lg:mr-[161px]"
+          className="right-0 absolute mr-[28px] lg:mr-[161px]"
         >
-          &#10095;
+          <img src={Icons.arrowRight} />
         </button>
       </div>
 
@@ -117,8 +117,8 @@ const BannerPrincipal: React.FC = () => {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-4 h-4 rounded-full mx-1 ${
-              index === currentSlide ? "bg-black" : "bg-gray-400"
+            className={`w-4 h-4 rounded-full mx-1 border-[1px] border-[#FAA500] ${
+              index === currentSlide ? "bg-[#FAA500]" : ""
             }`}
           />
         ))}

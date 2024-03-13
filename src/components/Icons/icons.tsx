@@ -37,6 +37,9 @@ import logoMaeztraDesk from "../../assets/images/logo-maeztra-desk.png";
 import mail from "../../assets/icons/mail.svg";
 import airplane from "../../assets/icons/airplane.svg";
 import coverModal from "../../assets/images/cover-modal.png";
+import arrowLeft from "../../assets/icons/arrow-left.svg";
+import arrowRight from "../../assets/icons/arrow-right.svg";
+
 
 const Icons = {
   iconDress,
@@ -73,6 +76,8 @@ const Icons = {
   mail,
   airplane,
   coverModal,
+  arrowLeft,
+  arrowRight,
 };
 
 export default Icons;
