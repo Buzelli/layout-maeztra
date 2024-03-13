@@ -1,6 +1,7 @@
 import './App.css'
 import Header from "./components/Header";
 import BannerPrincipal from "./components/BannerPrincipal"
+import TipBar from './components/TipBar';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className="font-titillium">
         <Header/>
         <BannerPrincipal/>
+        <TipBar/>
       </div>
     </>
   )
