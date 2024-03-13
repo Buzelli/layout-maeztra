@@ -39,7 +39,8 @@ import airplane from "../../assets/icons/airplane.svg";
 import coverModal from "../../assets/images/cover-modal.png";
 import arrowLeft from "../../assets/icons/arrow-left.svg";
 import arrowRight from "../../assets/icons/arrow-right.svg";
-
+import arrowLeftMob from "../../assets/icons/arrow-left-mob.svg";
+import arrowRightMob from "../../assets/icons/arrow-right-mob.svg";
 
 const Icons = {
   iconDress,
@@ -78,6 +79,8 @@ const Icons = {
   coverModal,
   arrowLeft,
   arrowRight,
+  arrowLeftMob,
+  arrowRightMob,
 };
 
 export default Icons;

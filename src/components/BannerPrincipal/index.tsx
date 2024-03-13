@@ -102,22 +102,22 @@ const BannerPrincipal = () => {
           onClick={prevSlide}
           className="left-0 absolute ml-[28px] lg:ml-[161px]"
         >
-          <img src={Icons.arrowLeft} />
+          <img src={isMobile ? Icons.arrowLeftMob : Icons.arrowLeft} />
         </button>
         <button
           onClick={nextSlide}
           className="right-0 absolute mr-[28px] lg:mr-[161px]"
         >
-          <img src={Icons.arrowRight} />
+          <img src={isMobile ? Icons.arrowRightMob : Icons.arrowRight}/>
         </button>
       </div>
 
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2">
         {banners.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-4 h-4 rounded-full mx-1 border-[1px] border-[#FAA500] ${
+            className={`w-[16px] h-[16px] rounded-full mx-[4px] border-[1px] border-[#FAA500] ${
               index === currentSlide ? "bg-[#FAA500]" : ""
             }`}
           />
