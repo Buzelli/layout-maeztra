@@ -2,6 +2,7 @@ import './App.css'
 import Header from "./components/Header";
 import BannerPrincipal from "./components/BannerPrincipal"
 import TipBar from './components/TipBar';
+import Marcas from './components/Marcas';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <BannerPrincipal/>
         <TipBar/>
+        <Marcas/>
       </div>
     </>
   )
