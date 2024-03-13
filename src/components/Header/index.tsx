@@ -34,7 +34,7 @@ const Header = () => {
               <input
                 type="text"
                 placeholder="O Que Você Busca?"
-                className="border-none w-[100%] h-[40px] bg-[#efefef] rounded-[10px] flex items-center pl-[24px] font-[400] text-[12px] focus-visible:outline-none focus-visible:ring-1"
+                className="border-none w-[100%] h-[40px] bg-[#efefef] rounded-[10px] flex items-center pl-[24px] font-[400] text-[12px] focus-visible:outline-none"
               />
               <button className="absolute right-0 top-0 text-[#fff] text-[14px] rounded-[8px] h-[40px] w-[119px] flex justify-center items-center bg-[#FAA500]">
                 Buscar
