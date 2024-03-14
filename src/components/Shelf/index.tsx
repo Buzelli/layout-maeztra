@@ -121,13 +121,13 @@ const Shelf = () => {
                             onClick={() => swiper?.slidePrev()}
                             className="left-0 absolute  swiper-button-prev after:content-[none]"
                         >
-                            <img src={Icons.arrowLeft} alt="Previous" />
+                            <img src={Icons.arrowLeftMob} alt="Previous" />
                         </button>
                         <button
                             onClick={() => swiper?.slideNext()}
                             className="right-0 absolute swiper-button-next after:content-[none]"
                         >
-                            <img src={Icons.arrowRight} alt="Next" />
+                            <img src={Icons.arrowRightMob} alt="Next" />
                         </button>
                     </div>
                 </Swiper>
