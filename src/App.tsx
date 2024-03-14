@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import BannerPrincipal from "./components/BannerPrincipal"
 import TipBar from './components/TipBar';
 import Marcas from './components/Marcas';
+import Shelf from './components/Shelf';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <BannerPrincipal/>
         <TipBar/>
         <Marcas/>
+        <Shelf/>
       </div>
     </>
   )

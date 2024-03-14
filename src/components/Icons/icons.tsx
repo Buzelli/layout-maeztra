@@ -42,6 +42,12 @@ import arrowRight from "../../assets/icons/arrow-right.svg";
 import arrowLeftMob from "../../assets/icons/arrow-left-mob.svg";
 import arrowRightMob from "../../assets/icons/arrow-right-mob.svg";
 
+import produtoImg01 from "../../assets/images/produto-img-01.png";
+import produtoImg02 from "../../assets/images/produto-img-02.png";
+
+import produtoColors01 from "../../assets/images/produto-colors-01.png";
+import produtoColors02 from "../../assets/images/produto-colors-02.png";
+
 const Icons = {
   iconDress,
   earth,
@@ -81,6 +87,10 @@ const Icons = {
   arrowRight,
   arrowLeftMob,
   arrowRightMob,
+  produtoImg01,
+  produtoImg02,
+  produtoColors01,
+  produtoColors02,
 };
 
 export default Icons;
