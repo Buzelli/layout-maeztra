@@ -11,7 +11,7 @@ const Marcas = () => {
 
     return (
 
-        <section className="mb-[40px] lg:mb-[80px] mt-[40px]">
+        <section className="mb-[40px] lg:mb-[80px] mt-[40px] lg:mt-[80px]">
             <h3 className="w-full text-center mb-[25px] lg:mb-[24px] font-bold text-[24px] lg:text-[32px] text-[#353535]">
                 Marcas Parceiras
             </h3>

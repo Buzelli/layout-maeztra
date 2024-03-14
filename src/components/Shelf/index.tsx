@@ -65,7 +65,7 @@ const Shelf = () => {
             <h3 className="w-full text-[24px] mb-[16px] mt-[40px] lg:mt-[80px] lg:mb-[24px] font-[700] lg:text-[32px] text-center text-[#353535]">
                 As Mais Pedidas
             </h3>
-            <div className="container max-w-[1600px] mx-auto pl-[16px] 2xl:pl-0 lg:px-[16px]">
+            <div className="container max-w-[1600px] mx-auto pl-[16px] 2xl:px-0 lg:px-[16px]">
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={16}

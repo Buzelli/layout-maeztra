@@ -22,6 +22,7 @@ import forever from "../../assets/images/forever.png";
 import zara from "../../assets/images/zara.png";
 import ann from "../../assets/images/ann.png";
 import bannerNewCollection from "../../assets/images/banner-new-collection.png";
+import bannerNewCollectionMob from "../../assets/images/banner-new-collection-mob.png";
 import mainBanner from "../../assets/images/main-banner.png";
 import mainBannerMob from "../../assets/images/main-banner-mob.png";
 
@@ -61,6 +62,7 @@ const Icons = {
   zara,
   ann,
   bannerNewCollection,
+  bannerNewCollectionMob,
   facebook,
   instagram,
   linkedin,
