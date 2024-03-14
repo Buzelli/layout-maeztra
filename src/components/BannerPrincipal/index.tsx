@@ -35,6 +35,20 @@ const BannerPrincipal = () => {
       title: "Promoções de Outono", 
       description: "Confira os melhores looks para combinar com você nesse Outono", 
     },
+    {
+      imageDesk: Icons.mainBanner,
+      imageMob: Icons.mainBannerMob,
+      alt: "Banner 3",
+      title: "Promoções de Outono", 
+      description: "Confira os melhores looks para combinar com você nesse Outono", 
+    },
+    {
+      imageDesk: Icons.mainBanner,
+      imageMob: Icons.mainBannerMob,
+      alt: "Banner 3",
+      title: "Promoções de Outono", 
+      description: "Confira os melhores looks para combinar com você nesse Outono", 
+    },
   ];
 
   useEffect(() => {
@@ -117,7 +131,7 @@ const BannerPrincipal = () => {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-[16px] h-[16px] rounded-full mx-[4px] border-[1px] border-[#FAA500] ${
+            className={`w-[16px] h-[16px] rounded-full mx-[4px] border-[2px] border-[#FAA500] ${
               index === currentSlide ? "bg-[#FAA500]" : ""
             }`}
           />
