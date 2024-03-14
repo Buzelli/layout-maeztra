@@ -1,4 +1,8 @@
 import Icons from '../Icons/icons';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const Marcas = () => {
     const marcas = [
@@ -16,10 +20,62 @@ const Marcas = () => {
                 Marcas Parceiras
             </h3>
             <div className="lg:px-[161px] pl-[31px] flex justify-center">
-                <div className="max-w-[1598px] flex flex-row flex-nowrap gap-[14px] lg:gap-[15px] overflow-x-scroll scrollbar-hide">
-                    {marcas.map((marca, index) => (
-                        <img key={index} src={marca} className="object-contain min-w-[308px] h-[64px]" alt={`Marca ${index + 1}`} />
-                    ))}
+                <div className="max-w-[1598px] w-full flex flex-row flex-nowrap gap-[14px] lg:gap-[15px]">
+                    <Swiper
+                        spaceBetween={12}
+                        slidesPerView={1.1}
+                        breakpoints={{
+                            668: {
+                                slidesPerView: 2,
+                                centeredSlides: true,
+                                centeredSlidesBounds: true,
+                            },
+                            800: {
+                                slidesPerView: 2.5,
+                                centeredSlides: true,
+                                centeredSlidesBounds: true,
+                            },
+                            1024: {
+                                slidesPerView: 2,
+                                centeredSlides: true,
+                                centeredSlidesBounds: true,
+                            },
+                            1100: {
+                                slidesPerView: 2.5,
+                                centeredSlides: true,
+                                centeredSlidesBounds: true,
+                            },
+                            1280: {
+                                slidesPerView: 3,
+                                centeredSlides: true,
+                                centeredSlidesBounds: true,
+                            },
+                            1600: {
+                                slidesPerView: 4,
+                                centeredSlides: true,
+                                centeredSlidesBounds: true,
+                            },
+                            1800: {
+                                slidesPerView: 4.5,
+                                centeredSlides: true,
+                                centeredSlidesBounds: true,
+                            },
+                            1900: {
+                                slidesPerView: 5,
+                                centeredSlides: true,
+                                centeredSlidesBounds: true,
+                                allowTouchMove: false,
+                            }
+                        }}
+                    >
+                        {marcas.map((marca, index) => (
+                            <SwiperSlide>
+                                <img key={index} src={marca} className="object-contain min-w-[308px] h-[64px]" alt={`Marca ${index + 1}`} />
+                            </SwiperSlide>
+
+                        ))}
+                    </Swiper>
+
                 </div>
             </div>
         </section>
