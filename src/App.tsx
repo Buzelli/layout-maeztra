@@ -7,13 +7,16 @@ import Shelf from './components/Shelf';
 import TextImageSection from './components/TextImageSection';
 import Icons from './components/Icons/icons';
 import Footer from './components/Footer';
+import Modal from './components/Modal/Modal';
 
 
 function App() {
 
   return (
     <>
+      
       <div className="font-titillium">
+        <Modal/>
         <Header />
         <BannerPrincipal />
         <TipBar />

@@ -95,8 +95,6 @@ const Shelf = () => {
                         prevEl: '.swiper-button-prev',
                     }}
                     pagination={{ clickable: true }}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
                 >
                     {products.map((product) => (
                         <SwiperSlide key={product.id}>

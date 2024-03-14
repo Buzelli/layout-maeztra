@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        titillium: ['"Titillium Web"', 'sans']
+        titillium: ['"Titillium Web"', 'sans'], 
+        lato: ["Lato"]
       },
     },
   },
