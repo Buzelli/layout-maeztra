@@ -9,24 +9,24 @@ const Footer = () => {
             title: 'Informações',
             subtitles: [
                 { title: 'Quem Somos', link: '#' },
-                { title: 'Prazo de Envio' },
-                { title: 'Trocas e Devoluções' },
-                { title: 'Promoções e Cupons' },
+                { title: 'Prazo de Envio', link: '#' },
+                { title: 'Trocas e Devoluções', link: '#' },
+                { title: 'Promoções e Cupons', link: '#' },
             ],
         },
         {
             title: 'Minha Conta',
             subtitles: [
                 { title: 'Minha Conta', link: '#' },
-                { title: 'Meus Pedidos' },
-                { title: 'Cadastre-se' },
+                { title: 'Meus Pedidos', link: '#' },
+                { title: 'Cadastre-se', link: '#' },
             ],
         },
         {
             title: 'Onde nos Encontrar',
             subtitles: [
                 { title: 'Lojas', link: '#' },
-                { title: 'Endereço' },
+                { title: 'Endereço', link: '#' },
             ],
         },
     ];

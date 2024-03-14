@@ -55,9 +55,9 @@ const Accordion = ({ items } : AccordionProps) => {
                     <div key={index} className='flex flex-col gap-[24px]'>
                         <div>
 
-                            <button className="text-[16px] font-[700] text-[#353535]">
+                            <p className="text-[16px] font-[700] text-[#353535]">
                                 {item.title}
-                            </button>
+                            </p>
 
                         </div>
                         <ul className="flex flex-col gap-[24px]">
