@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+
+.swiper-pagination-bullet-active {
+    background: #FAA500 !important;
+  }
