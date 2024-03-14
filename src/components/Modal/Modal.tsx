@@ -26,7 +26,7 @@ const Modal = () => {
             onScroll={(e) => e.preventDefault()}
             onClick={() => setIsModalOpen(false)}
         >
-            <div className="flex">
+            <div className="flex" onClick={(e) => e.stopPropagation()}>
                 <img
                     src={Icons.coverModal}
                     className="hidden lg:inline-block w-auto h-[533px]"
