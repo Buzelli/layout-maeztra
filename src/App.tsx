@@ -6,6 +6,7 @@ import Marcas from './components/Marcas';
 import Shelf from './components/Shelf';
 import TextImageSection from './components/TextImageSection';
 import Icons from './components/Icons/icons';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           imageUrlMob={Icons.bannerNewCollectionMob}
           alt="banner new collection"
         />
+        <Footer/>
       </div>
     </>
   )

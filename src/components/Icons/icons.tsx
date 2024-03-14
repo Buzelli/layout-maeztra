@@ -28,6 +28,7 @@ import mainBannerMob from "../../assets/images/main-banner-mob.png";
 
 import burger from "../../assets/icons/burger.svg";
 import more from "../../assets/icons/more.svg";
+import less from "../../assets/icons/less.svg";
 import user from "../../assets/icons/icon-user.svg";
 import heart from "../../assets/icons/icon-heart.svg";
 import bag from "../../assets/icons/icon-shoppingbag.svg";
@@ -82,6 +83,7 @@ const Icons = {
   bag,
   heart,
   more,
+  less,
   mail,
   airplane,
   coverModal,
