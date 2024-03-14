@@ -7,7 +7,7 @@ const TipBar = () => {
       <h3 className="w-full text-center mb-[21px] font-[700] text-[16px] text-[#353535]">
         Por que comprar na Maeztra?
       </h3>
-      <div className="lg:px-[161px] pl-[31px]">
+      <div className="lg:px-[161px] pl-[31px] flex justify-center">
         <div className=" max-w-[1598px] flex flex-row flex-nowrap gap-[14px] lg:gap-[15px] overflow-x-scroll scrollbar-hide">
           <TipBarItem
             icon={Icons.earth}
